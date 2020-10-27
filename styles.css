@@ -4,10 +4,26 @@
     align-items: center;
 }
 
+.header {
+    font-family: 'Merriweather', serif;
+}
+
+.bodytext{
+    font-family: 'Roboto', sans-serif;
+}
+
 .img{
-    width: 100%;
+    width: 50%;
     border-radius: 50%;
     height: auto;
     margin: auto;
-    display: block;
+    display: flex;
+}
+
+.border {
+    border-bottom: 1px solid grey;
+}
+
+li{
+  padding: 5px;  
 }
